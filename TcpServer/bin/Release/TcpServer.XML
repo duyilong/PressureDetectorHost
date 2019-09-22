@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TcpServer</name>
+    </assembly>
+    <members>
+        <member name="T:TcpServer.ClientHandle">
+            <summary>
+            接收和处理client通信
+            </summary>
+        </member>
+        <member name="M:TcpServer.ClientHandle.RecvData">
+            <summary>
+            数据处理线程的入口
+            在这个函数中完成数据的接收和处理
+            包括写入数据库
+            </summary>
+        </member>
+        <member name="T:TcpServer.DatabaseHandle">
+            <summary>
+            处理数据库的连接和增删改查等操作的类
+            </summary>
+        </member>
+        <member name="M:TcpServer.DatabaseHandle.MyInsert(System.String)">
+            <summary>
+            执行将数据插入到表格的操作
+            </summary>
+            <param name="con">连接名</param>
+            <param name="cmd">SQL命令</param>
+        </member>
+        <member name="M:TcpServer.Program.Main(System.String[])">
+            <summary>
+            主程序
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:TcpServer.StrSplit">
+            <summary>
+            分割收到的tcp字符串，
+            构造相应的SQL字符串
+            </summary>
+        </member>
+        <member name="M:TcpServer.StrSplit.MyAlert(System.String)">
+            <summary>
+            判断是否有报警数据,
+            返回报警SQL命令“合集”，命令间以%分割
+            </summary>
+            <param name="tcpstrRecv">从TCP接收到的数据字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:TcpServer.StrSplit.MySplit(System.String)">
+            <summary>
+            构造插入数据到单元气压表的SQL语句
+            </summary>
+            <param name="tcpstrRecv">从TCP接收到的数据字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:TcpServer.StrSplit.CurrentTimeStr">
+            <summary>
+            构造同步时间命令，字符串形式
+            </summary>
+            <returns>时间同步命令</returns>
+        </member>
+    </members>
+</doc>

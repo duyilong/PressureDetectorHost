@@ -1,0 +1,14 @@
+C:\Users\duyl\Documents\Visual Studio 2013\Projects\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\TcpServer.exe.config
+C:\Users\duyl\Documents\Visual Studio 2013\Projects\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\TcpServer.exe
+C:\Users\duyl\Documents\Visual Studio 2013\Projects\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\TcpServer.pdb
+C:\Users\duyl\Documents\Visual Studio 2013\Projects\C#学习\TcpServer_WithThreads\TcpServer\obj\Debug\TcpServer.csprojResolveAssemblyReference.cache
+C:\Users\duyl\Documents\Visual Studio 2013\Projects\C#学习\TcpServer_WithThreads\TcpServer\obj\Debug\TcpServer.exe
+C:\Users\duyl\Documents\Visual Studio 2013\Projects\C#学习\TcpServer_WithThreads\TcpServer\obj\Debug\TcpServer.pdb
+C:\Users\duyl\Documents\Visual Studio 2013\Projects\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\MySql.Data.dll
+F:\61705-Project\Projects-20161016\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\TcpServer.exe.config
+F:\61705-Project\Projects-20161016\C#学习\TcpServer_WithThreads\TcpServer\obj\Debug\TcpServer.exe
+F:\61705-Project\Projects-20161016\C#学习\TcpServer_WithThreads\TcpServer\obj\Debug\TcpServer.pdb
+F:\61705-Project\Projects-20161016\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\TcpServer.exe
+F:\61705-Project\Projects-20161016\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\TcpServer.pdb
+F:\61705-Project\Projects-20161016\C#学习\TcpServer_WithThreads\TcpServer\bin\Debug\MySql.Data.dll
+F:\61705-Project\Projects-20161016\C#学习\TcpServer_WithThreads\TcpServer\obj\Debug\TcpServer.csprojResolveAssemblyReference.cache
